@@ -138,14 +138,32 @@ font-size: 22px;
 width: 550px;
 margin-top: 140px;
      }
-     да нормально но фотку надо поднять на несколько пх
+     
    
      #photo_with_id{
      	width: 100%;	
      }
 
 @media (max-width: 700px){
-    .headwords{
+   #main{
+
+    margin: 0; 
+    
+}
+#inspo{
+
+    margin: 0;
+}
+#photo{
+
+    margin: 0; 
+
+}
+#advice{
+  
+margin: 0;
+    }
+     .headwords{
         background-color:#fbf6f0; 
 background-size: 100%;
         color: black;
