@@ -1,0 +1,174 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color:#fbf6f0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.headwords{ 
+display: flex; 
+justify-content: space-around; 
+color: black; 
+font-family: ‘MS Serif’, serif; 
+background-color:#fbf6f0; 
+background-size: 100%;
+font-size: 15px; 
+padding-top:18px; 
+padding-right: 20px; 
+padding-left: 1105px; 
+padding-bottom: 1px;  
+
+} 
+
+
+#last{ 
+    background-color: #fbf6f0; 
+} 
+.closed{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav{
+    float: left;
+}
+label{
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: none; 
+}
+#toggle{
+    display: none;
+
+}
+@media (max-width: 700px){
+    #text111{
+        width:100%;
+    }
+    .headwords{
+        background-color:#fbf6f0; 
+background-size: 100%;
+        color: black;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+   
+ 
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .headwords{
+        
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+    .headwords div{
+        border-top: 1px solid grey;
+        padding: 10px 0; 
+    }
+    #toggle:checked + .headwords{
+        display: none;
+    }
+     
+ 
+   #text1_700{
+    width: 100%;
+    height: 2980px;
+    margin-left: -168px;
+}
+#text_nad_carousels1-first{
+    margin-left: -36px; 
+}
+#text1{
+    width: 100%;
+
+    text-align: justify;
+}
+#text_nad_carousels1{
+    width: 490%;
+  }
+  #tip1{
+    padding-left: 1px;
+  }
+}
+@media (max-width: 1340px){
+   
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#main{
+    cursor: pointer;
+}
+#inspo{
+    cursor: pointer;
+}
+#photo{
+    cursor: pointer;
+}
+#pinterest{
+    cursor: pointer;
+}
+#advice{
+    cursor: pointer;
+}
+#insta_photo{
+    float: left; 
+    margin-top: 50px;
+    padding-left: 140px;
+
+}
+     #h2_text{
+        float: left;
+font-family: "FreeMono", monospace; 
+padding-top:248px; 
+padding-right: 200px; 
+padding-left: 685px; 
+color:black;
+font-size: 22px;
+position: absolute;
+     }
+   
+     #photo_with_id{
+        width: 100%;
+        
+     }
+     #upbutton {
+    background: url("vverh.png") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+}
+#vverhh{
+    display:scroll;position:fixed;bottom:10px;
+    right:5px;}
+#text1{
+    width: 100%;
+    height: 2410px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: ‘MS Serif’, serif; 
+background-color:#fbf6f0;  
+color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#text_nad_carousels1-first{
+    padding-top: 50px;
+    padding-left: 46px;
+}

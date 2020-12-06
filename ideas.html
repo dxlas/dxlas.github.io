@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ideas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+ </head>
+<body>
+    <div class = "nav">
+        <label for = "toggle">&#9776;</label>
+    </div>
+        <input type="checkbox" name="" id = "toggle" checked>
+    <div class = "headwords" >
+
+        <div id ="main" onclick="document.location = 'index.html'" onmouseover="big(this)" onmouseout="small(this)">MAIN</div>
+         <div id = "photo" onclick="document.location = 'ideas.html'"  onmouseover="big(this)" onmouseout="small(this)">IDEAS</div>
+        <div id = "photo" onclick="document.location = 'photo.html'"  onmouseover="big(this)" onmouseout="small(this)">PHOTOGRAPHY</div>
+        <div id = "advice" onclick="document.location = 'advice.html'"  onmouseover="big(this)" onmouseout="small(this)" >ADVICE</div>
+    </div>
+
+  
+
+    <div id = "bl2">
+    <div id = "block2">
+       <div id="carousel-kv1" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner-first" role="listbox">
+    <div class="carousel-item active" id = "carousel-item-1">
+      <img class="d-block w-100" src="b4.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b1.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="b8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+     <div id="carousel-kv2" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active"id = "carousel-item-1">
+      <img class="d-block w-100" src="r2.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r1.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="r8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active" >
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+<div id="carousel-kv3" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" id = "carousel-item-1">
+      <img class="d-block w-100" src="s2.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s1.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="s8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv3" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+<div id="carousel-kv4" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" id = "carousel-item-1">
+      <img class="d-block w-100" src="o1.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="03.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item" id = "carousel-item-1">
+      <img class="d-block w-100" src="o8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv4" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv4" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+<div id="carousel-kv5" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="blue1.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="blue7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="blue8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv5" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv5" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+<div id="carousel-kv6" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="pink1.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="pink7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pink8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-kv6" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-kv6" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-first">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+</div>
+    </div>
+</div>
+
+    <div id = "block3" class = "block3">
+       <div id="carousel-thumb-one" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="c1.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item" id = "ci">
+      <img class="d-block w-100" src="c2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="c7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-thumb-one" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"  id = "car_cont" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-thumb-one" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id = "car_cont" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators" id = "carousel-indicators-vtoroi">
+    <li data-target="#carousel-thumb-one" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-one" data-slide-to="7">
+    </li>
+  </ol>
+
+</div>
+
+ <div id="carousel-thumb-second" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="g1.jpg"
+        alt="First">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g2.jpg"
+        alt="Second">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g3.jpg"
+        alt="Third">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g4.jpg"
+        alt="Fourth">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g5.jpg"
+        alt="Fifth">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g6.jpg"
+        alt="Sixth">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="g7.jpg"
+        alt="Seventh">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="g8.jpg"
+        alt="Eighth">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-thumb-second" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id = "car_cont"aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-thumb-second" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id = "car_cont"aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-thumb-second" data-slide-to="0" class="active"> 
+    </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="1" id = "cifri">  
+    </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="2"  id = "cifri">  
+    </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="3"  id = "cifri">
+    </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="4"  id = "cifri"> 
+       </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="5"  id = "cifri">
+    </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="6"  id = "cifri">
+       </li>
+    <li data-target="#carousel-thumb-second" data-slide-to="7"  id = "cifri">
+    </li> 
+  </ol>
+</div>
+<div id="carousel-thumb-third" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="w1.jpg"
+        alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w2.jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w3.jpg"
+        alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w4.jpg"
+        alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w5.jpg"
+        alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w6.jpg"
+        alt="Sixth slide">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="w7.jpg"
+        alt="Seventh slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="w8.jpg"
+        alt="Eighth slide">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carousel-thumb-third" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" id = "car_cont"aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-thumb-third" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" id = "car_cont" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-thumb-third" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="1">
+    </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="2">
+    </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="3">
+    </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="4">
+        </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="5">
+    </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="6">
+       </li>
+    <li data-target="#carousel-thumb-third" data-slide-to="7">
+    </li>
+    
+  </ol>
+</div>
+</div>
+<a href='#' rel='nofollow' 
+style='display:scroll;position:fixed;bottom:10px;right:1px;' 
+title='Up'>
+<img src='vverh.png' width="37px" height="37px"/></a>
+</body> 
+</html>
+
+
+
+

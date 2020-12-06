@@ -1,0 +1,261 @@
+*{
+    margin: 0 auto;
+}
+body{
+	background-color:#fbf6f0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.headwords{ 
+display: flex; 
+justify-content: space-around; 
+color: black; 
+font-family: ‘MS Serif’, serif; 
+background-color:#fbf6f0; 
+background-size: 1450px;
+font-size: 15px; 
+padding-top:18px; 
+padding-right: 20px; 
+padding-left: 1105px; 
+padding-bottom: 1px; 
+} 
+.closed{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav{
+    float: left;
+}
+label{
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: none; 
+}
+#toggle{
+    display: none;
+
+}
+@media (max-width: 700px){
+    .headwords{
+        background-color:#fbf6f0; 
+background-size: 100%;
+        color: black;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .headwords{
+      
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+    .headwords div{
+        border-top: 1px solid grey;
+        padding: 10px 0; 
+    }
+    #toggle:checked + .headwords{
+        display: none;
+    }
+    .map{
+
+          height: 200px;
+            
+  
+    }
+    #map {
+      margin-left: -100px;
+     
+ width: 50%;
+ top: 20px;
+ height: 300px;
+}
+    #sessions{
+      margin-top: 29px;
+
+
+    }
+    .kartaa{
+      width: 100%
+    }
+    
+
+    #sessions{
+      margin-top: 29px;
+    margin-left: -127px;
+ margin-right: -124px;
+    }
+    .kartaa{
+      width: 100%
+    }
+    #cardss{
+      width: 207%;
+    }
+  #maps{
+    width: 160%;
+  }
+    #cardd{
+      width: 100px;
+    }
+
+#cardd{ 
+    width:100%; 
+    height: 300px; 
+    background-color: #fbf6f0;
+    margin: 38px;
+
+} 
+.popup{
+    top: 0;
+    display: flex;
+    width: 190px;
+    height: 300px;
+    font-family: ‘MS Serif’, serif; 
+    background-color: #bedcfa;
+}
+input{
+  width: 300px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    background-color:#fbf6f0;
+    color: black;
+ 
+}
+textarea{
+  width: 300px;
+  height: 100px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fbf6f0;
+    border-radius: 2px;
+    color: black;
+
+}
+  .card-title{ 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around; 
+    font-family: ‘MS Serif’, serif; 
+    font-size: 16px; 
+    padding-top: 29px;
+    padding-left: 14px;
+    padding-right: 10px;
+    color: black;
+    background-color:  #bedcfa;
+    width: 100%;
+    height: 100px;
+    text-shadow: white 0 0 1px;
+}
+#sessions{
+  padding-left: -100px;
+} 
+}
+@media (max-width: 1340px){
+   
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#main{
+    cursor: pointer;
+}
+#inspo{
+    cursor: pointer;
+}
+#photo{
+    cursor: pointer;
+}
+#advice{
+    cursor: pointer;
+}
+#sessions{
+font-size: 24px;
+    font-family: ‘MS Serif’, serif;
+color: black;
+
+}
+#karta{
+    width: 100%;
+    height: 640px;
+    padding-top: 30px;
+    
+  background-color:#fbf6f0; 
+    text-align: center;
+    padding-right: 140px;
+padding-left: 140px;
+}
+#map {
+ width: 70%;
+ padding-left: 10px;
+ top: 20px;
+ height: 400px;
+}
+.map-info{
+    width: 40px;
+
+}
+  .cards{
+  width: 1519px;
+  	height: 400px;
+  	 margin-top: 66px;
+  background-color:#fbf6f0; 
+  	  margin-left: -140px; 
+  	  
+  	}
+  	.card-title{ 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around; 
+    font-family: ‘MS Serif’, serif; 
+    font-size: 16px; 
+    padding-left: 14px;
+    padding-right: 10px;
+    color: black;
+} 
+.card{ 
+    width:560px; 
+    height: 330px; 
+    background-color: #fbf6f0;
+} 
+
+.popup{
+    top: 0;
+    display: flex;
+ 
+    width: 100%;
+    font-family: ‘MS Serif’, serif; 
+    background-color: #bedcfa;
+
+}
+.popup-content{
+    text-align: center;
+    background-color: #bedcfa;
+}
+input{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    background-color:#fbf6f0;
+    color: black;
+ 
+}
+textarea{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fbf6f0;
+    border-radius: 2px;
+    color: black;
+
+}
