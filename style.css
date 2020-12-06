@@ -9,17 +9,17 @@ body{
 }
 
 .headwords{ 
+	margin: 0;
+	margin-top: 15px;
+	margin-right: 10px;
 display: flex; 
-justify-content: space-around; 
+justify-content: flex-end; 
 color: black; 
 font-family: ‘MS Serif’, serif; 
 background-color:#fbf6f0; 
 background-size: 100%;
 font-size: 15px; 
-padding-top:18px; 
-padding-right: 20px; 
-padding-left: 1105px; 
-padding-bottom: 1px;  
+ 
 
 } 
 #quote{ 
@@ -95,7 +95,7 @@ label{
 }
 #text_apel{
 	margin: 0;
-	width: 100%;
+	width: fit-content; 
 
 }
 #apel{
@@ -104,8 +104,46 @@ label{
    	flex-direction: row;
    	flex-wrap: wrap;
    	justify-content: space-around;
+   margin-top: 30px; 
    
 }
+#main{
+    cursor: pointer;
+    margin: 0; 
+    margin-left: 50px;
+}
+#inspo{
+    cursor: pointer;
+    margin: 0;
+    margin-left: 50px;
+}
+#photo{
+    cursor: pointer;
+    margin: 0; 
+    margin-left: 50px;
+}
+#advice{
+    cursor: pointer;
+margin: 0;
+    margin-left: 50px;}
+#insta_photo{
+	float: left; 
+	
+}
+     #h2_text{
+     	float: left;
+font-family: "FreeMono", monospace;  
+color:black;
+font-size: 22px;
+width: 550px;
+margin-top: 140px;
+     }
+     да нормально но фотку надо поднять на несколько пх
+   
+     #photo_with_id{
+     	width: 100%;	
+     }
+
 @media (max-width: 700px){
     .headwords{
         background-color:#fbf6f0; 
@@ -121,6 +159,7 @@ background-size: 100%;
     }
     #sometext{
         color: #faf3dd;
+
     }
     #inform{
         padding-top: 10px;
@@ -141,6 +180,10 @@ background-size: 100%;
 	 background-color:#fbf6f0; 
 	 top: 100px;
 }
+#insta_apel{
+	width: 100%;
+
+}
     #visual{     
        margin-top: 14px;
         font-size: 40px;
@@ -154,10 +197,11 @@ background-size: 100%;
     #sometext{
     	color: black;
         font-size: 19px;
-        margin-left: -22px;
-        margin-right: -19px;
         padding-top: 5px;
          text-shadow: #4c4c4c 0 0 1px;
+         width: 100%;
+         padding-left: 5px;
+         padding-right: 5px;
 
     }
     label{
@@ -195,24 +239,26 @@ background-size: 100%;
     }
    
    #insta_photo{
-   	width: 450px;
-   	height: 450px;
+   	width: 100%;
+   	height: auto;
    	background-size: 100%;
- 	margin-left: -46px; 
-	margin-top: 20px;
-	
+}
+#apel{
+	width: 100%;
+	flex-direction: column;
 
 }
      #h2_text{
-     	background-size: 60%;
-     	width: 100%
-     	margin-top: 200px;
-     	margin-left: -660px;
-     	margin-right: -160px;
+     	width: 100%;
+     	padding-left: 5px;
+     	padding-right: 5px;
+     	font-size: 15px;
+     	margin-top: 30px; 
      }
    #text_apel{
    	  	width: 100%;
-   	padding-top: 300px;
+   		
+
    }
      #photo_with_id{
      	width: 100%;
@@ -229,35 +275,3 @@ background-size: 100%;
     }
 }
 
-#main{
-    cursor: pointer;
-}
-#inspo{
-    cursor: pointer;
-}
-#photo{
-    cursor: pointer;
-}
-#advice{
-    cursor: pointer;
-}
-#insta_photo{
-	float: left; 
-	margin-top: 50px;
-	padding-left: 140px;
-
-}
-     #h2_text{
-     	float: left;
-font-family: "FreeMono", monospace;  
-color:black;
-font-size: 22px;
-width: 550px;
-margin-top: 50px;
-     }
-   
-     #photo_with_id{
-     	width: 100%;
-     	
-     }
-     
