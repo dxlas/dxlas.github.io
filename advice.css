@@ -221,12 +221,13 @@ padding-left: 140px;
     font-size: 16px; 
     padding-left: 14px;
     padding-right: 10px;
+    padding-top: 10px;
     color: black;
 } 
 .card{ 
     width:560px; 
     height: 330px; 
-    background-color: #fbf6f0;
+    background-color: #bedcfa;
 } 
 
 .popup{

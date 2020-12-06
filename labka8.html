@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<head> 
+<title>Labka8</title> 
+<style> 
+#one{ 
+display: flex; 
+justify-content: space-around; 
+} 
+code { 
+color: yellow; /* Цвет текста */ 
+font-family: ‘MS Serif’, serif; 
+font-size: 30px; } 
+samp { 
+color: green;
+font-size: 20px; /* Цвет текста */ 
+} 
+kbd{ 
+font-weight: bold; 
+color: blue; 
+} 
+var{ 
+color: red; 
+} 
+text{ 
+color:pink; 
+font-size: 30px; 
+} 
+em{ 
+color: yellow; 
+} 
+strong{ 
+color:yellow; 
+} 
+abbr { 
+color: yellow; 
+} 
+#abbrtext{ 
+font-size: 20px; 
+color: green; 
+} 
+#addresstext{ 
+
+font-size: 20px; 
+color: white; 
+} 
+address{ 
+color:yellow; 
+margin-top: -8px; 
+} 
+#bditext{ 
+color: white; 
+} 
+bdi{ 
+color:yellow; 
+} 
+#bdotext{ 
+color: pink; 
+} 
+bdo{ 
+color:yellow; 
+} 
+blockquote{ 
+color: yellow; 
+} 
+cite{ 
+color: white; 
+} 
+q { 
+font-family: Times, serif; /* Шрифт с засечками */ 
+font-style: italic; /* Курсивное начертание текста */ 
+color: yellow; 
+} 
+mark { 
+background: #pink; 
+padding: 0 3px; 
+border: 1px solid yellow; 
+} 
+body{ 
+background-color: black; 
+
+} 
+</style> 
+</head> 
+<body> 
+<div id = "one"> 
+<p><code id = "first"> 
+int a=9; <br> 
+int b=1; <br> 
+System.out.println(a+b); 
+</code></p> 
+<p><code id = "second"> 
+int a=9;<br> 
+int b=1;<br> 
+System.out.println(a+b);<br> 
+</code>
+<samp>Result will be 10. //samp tag</samp> 
+</p> 
+<p><code id = "third"> 
+int <kbd>a=9;<br></kbd> 
+int <kbd>b=1;<br></kbd> 
+//kbd tag <br> 
+System.out.println<kbd>(a+b)</kbd>; 
+</code></p> 
+<p><code id = "fourth"> 
+int <var>a=9;<br></var> 
+int <var>b=1;<br></var> 
+//var tag <br> 
+System.out.println<var>(a+b)</var>; 
+</code></p> 
+</div> 
+<hr> 
+<text>some text <em> EM TAG </em>some text<strong> STRONG TAG </strong></text> 
+<p id = "abbrtext"><abbr title="Object-oriented programming">OOP</abbr> is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields. 
+</p> 
+<p id = "addresstext">Street Name(house number):<address>Avenue du Large 23.</address></p> 
+<p id = "bditext">На русском "пока", на английском "bye", а на арабском "<bdi>بينما</bdi>".</p> 
+<p id = "bdotext">This text will go right-to-left. (bdo) <bdo dir="rtl"> This text will go right-to-left. </bdo></p> 
+<hr> 
+<blockquote> 
+<p>If your ego starts out, 'I am important, I am big, I am special,' you're in for some disappointments when you look around at what we've discovered about the universe. No, you're not big. No, you're not. You're small in time and in space. And you have this frail vessel called the human body that's limited on Earth.</p> 
+</blockquote> 
+<hr> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Van_Gogh_-_Country_road_in_Provence_by_night.jpg" width="220" height="277" alt="The Scream"> 
+<p style="color: white"><cite>Country road in Provence</cite> by Van Gogh.</p> 
+<hr> 
+<p style="color : white"> Лев Никола́евич Толсто́й утверждал: <q>Лучше знать немного истинно хорошего и нужного, чем очень много посредственного и ненужного.</q>.</p> 
+
+<p style="color: white ">Скидка на товары <del>10%</del> <ins>50%<ins> </p> 
+<p style="color: white"> Тег "mark" используется для <mark>выделения</mark> текста. </p> 
+</body>

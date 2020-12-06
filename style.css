@@ -1,0 +1,261 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+	background-color:#fbf6f0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.headwords{ 
+display: flex; 
+justify-content: space-around; 
+color: black; 
+font-family: ‘MS Serif’, serif; 
+background-color:#fbf6f0; 
+background-size: 100%;
+font-size: 15px; 
+padding-top:18px; 
+padding-right: 20px; 
+padding-left: 1105px; 
+padding-bottom: 1px;  
+
+} 
+#quote{ 
+width: 68%; 
+height: auto; 
+padding-top: 7px; 
+padding-bottom: 5px; 
+margin-top: 5px; 
+font-size: 18px;
+padding-left: 70px; 
+padding-right: 70px; 
+
+} 
+.create{ 
+text-align: center; 
+padding-top: 30px; 
+text-shadow: #4c4c4c 0 0 6px; 
+color: black; 
+background-color:#fbf6f0; 
+width: 100%; 
+height: 520px; 
+font-family: ‘MS Serif’, serif;
+} 
+#photo1{
+    padding-top: 10px;
+}
+#visual{
+    font-size: 49px;
+}
+#information{
+   font-size: 25px;
+   text-align: center;
+   text-shadow: #4c4c4c 0 0 6px; 
+   color: black;
+}
+#sometext{
+    color: black; 
+    text-align: center;
+}
+#change{
+    color: black; 
+    text-shadow: #4c4c4c 0 0 1px; 
+}
+#inform{ 
+    font-size: 25px; font-family: ‘MS Serif’, serif; 
+    color: #f8efd4; 
+    padding-left: 29px; 
+    padding-right: 29px;
+} 
+#last{ 
+    background-color: #fbf6f0; 
+} 
+.closed{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav{
+    float: left;
+}
+label{
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: none; 
+}
+#toggle{
+    display: none;
+
+}
+@media (max-width: 700px){
+    .headwords{
+        background-color:#fbf6f0; 
+background-size: 100%;
+        color: black;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    #photo1{
+    	width:80%;
+    	height: 206px;
+    	padding-top: 3px;
+    }
+    #sometext{
+        color: #faf3dd;
+    }
+    #inform{
+        margin: 0 auto;
+    }
+    .create{
+        background-size: 700px;
+
+    }
+    #quote{
+        padding-bottom: 10px;
+        margin-top: 1px;
+     width: 94%;
+     padding-left: 1px;
+     padding-right: 1px;
+
+  }
+#last{
+	 background-color:#fbf6f0; 
+}
+    #visual{     
+       margin-top: 14px;
+        font-size: 40px;
+        padding-right: 10px;
+        margin-right: 27px;
+        margin-left: 50px;
+    }
+    #information{
+        font-size: 20px;
+    }
+    #sometext{
+    	color: black;
+        font-size: 19px;
+        margin-left: -22px;
+        margin-right: -19px;
+        padding-top: 5px;
+         text-shadow: #4c4c4c 0 0 1px;
+
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .headwords{
+    	
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+    .headwords div{
+        border-top: 1px solid grey;
+        padding: 10px 0; 
+    }
+    #toggle:checked + .headwords{
+        display: none;
+    }
+     .carousel-inner-first > img{
+  width: 70px;
+  height: 520px;
+  }
+  #car_cont{
+  	margin-top:361px;
+  }
+    .map{
+       padding-left: -20px;
+          width: 700px;
+          height: 300px;
+    }
+    #inspotext{
+        margin-left: 10px;
+    }
+   #apel{
+   	width: 100%;
+   	padding-left: -10px; 
+   	flex-wrap: wrap;
+   color: orange; 
+   }
+   #insta_photo{
+   	width: 450px;
+   	height: 450px;
+   	background-size: 100%;
+ 	margin-left: -46px; 
+	margin-top: 20px;
+	display: none;
+
+}
+     #h2_text{
+     	background-size: 60%;
+     	width: 100%
+     	margin-top: 200px;
+     	margin-left: -660px;
+     	margin-right: -160px;
+     }
+   #text_apel{
+   	  	width: 100%;
+   	padding-top: 300px;
+   	display: none;
+   }
+     #photo_with_id{
+     	width: 100%;
+     	margin-left: -10px;
+     	margin-right: -10px;
+}
+ 
+}
+@media (max-width: 1340px){
+   
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#main{
+    cursor: pointer;
+}
+#inspo{
+    cursor: pointer;
+}
+#photo{
+    cursor: pointer;
+}
+#advice{
+    cursor: pointer;
+}
+#insta_photo{
+	float: left; 
+	margin-top: 50px;
+	padding-left: 140px;
+
+}
+     #h2_text{
+     	float: left;
+font-family: "FreeMono", monospace; 
+padding-top:248px; 
+padding-right: 200px; 
+padding-left: 685px; 
+color:black;
+font-size: 22px;
+position: absolute;
+     }
+   
+     #photo_with_id{
+     	width: 100%;
+     	
+     }
+     
+#contact_us{
+
+width: 100%;
+height: 100px;
+padding-top: 700px;
+}

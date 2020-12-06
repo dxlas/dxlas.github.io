@@ -22,10 +22,10 @@
         <input type="checkbox" name="" id = "toggle" checked>
     <div class = "headwords" >
 
-        <div id ="main" onclick="document.location = 'index.html'" onmouseover="big(this)" onmouseout="small(this)">MAIN</div>
-         <div id = "photo" onclick="document.location = 'ideas.html'"  onmouseover="big(this)" onmouseout="small(this)">IDEAS</div>
-        <div id = "photo" onclick="document.location = 'advice.html'"  onmouseover="big(this)" onmouseout="small(this)">PHOTOGRAPHY</div>
-        <div id = "advice" onclick="change(this)"  onmouseover="big(this)" onmouseout="small(this)" >ADVICE</div>
+        <div id ="main" onclick="document.location = 'index.html'" >MAIN</div>
+         <div id = "photo" onclick="document.location = 'ideas.html'" >IDEAS</div>
+        <div id = "photo" onclick="document.location = 'photo.html'" >PHOTOGRAPHY</div>
+        <div id = "advice"onclick="document.location = 'advice.html'">ADVICE</div>
     </div>
 
   
@@ -45,7 +45,7 @@
             <div class="popup" id = "popup" onclick="popup()">
                 <div class="popup-content">
                       
-                    <input id="username" type="text" name="username" placeholder="Full Name">
+                    <input type="text" id="username" name="username" placeholder="Full Name">
                     <input type="text" id="inst" name="inst" placeholder="Your Instagram account">
                      <textarea type="text" id="pass" name="pass" placeholder="Your suggestion"></textarea>
         
@@ -59,6 +59,19 @@
 <script type="text/javascript" src="script.js"></script>
 
 <script>
+  function popup(){
+   const popup = document.querySelector('#popup');
+const button = popup.querySelector('.btn');
+
+button.addEventListener('click', function(){
+    document.getElementById('username').value = "";
+    document.getElementById('inst').value = "";
+    document.getElementById('pass').value = "";
+    console.log(document.getElementById('username').value);
+})
+}
+       
+  
     let map;
 function initMap() {
 
